@@ -1,0 +1,27 @@
+.meal {
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 20px;
+  position: relative;
+}
+h3 {
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.description {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: green;
+}
+.mealform {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

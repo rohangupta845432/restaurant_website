@@ -1,0 +1,10 @@
+.meals {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  max-width: 60rem;
+}
+
+li {
+  list-style-type: none;
+}

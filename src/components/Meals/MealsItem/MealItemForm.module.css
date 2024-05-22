@@ -1,0 +1,14 @@
+.mealform {
+  text-align: right;
+  align-items: right;
+}
+.mealform button {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #8a2b06;
+  color: #fff;
+}
