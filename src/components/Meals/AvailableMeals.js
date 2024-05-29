@@ -33,6 +33,7 @@ const AvailableMeals = () => {
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealsItem
       key={meal.id}
+      id={meal.id}
       name={meal.name}
       description={meal.description}
       price={meal.price}
@@ -40,11 +41,11 @@ const AvailableMeals = () => {
   ));
 
   return (
-    <seaction className={classes.meals}>
+    <section className={classes.meals}>
       <Card>
         <ul>{mealsList}</ul>
       </Card>
-    </seaction>
+    </section>
   );
 };
 
